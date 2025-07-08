@@ -1,3 +1,5 @@
 # Virtual Enviornments
 .venv
 .env
+Dagster/env/
+Dagster/venv

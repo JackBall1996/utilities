@@ -6,7 +6,7 @@
 
 - Open command promot
 - Set your working directory using 'cd C:\your_working_directory\'
-- Run 'py -m venv env' to create a virtual environment named 'venv' 
+- Run 'py -m venv env' to create a virtual environment named 'env' 
 
 ### Activation / De-activation
 

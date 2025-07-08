@@ -29,8 +29,8 @@ You can install all the packages and their versions from a requirements file by 
 
 ### Extras 
 
-You can use the command 'where python' in command prompt to check python is running from your virtual environment
-In VS Code, press control + shift + p and search 'interpreter' to choose your default python interpreter. You can select your virtual environment from here.
+- You can use the command 'where python' in command prompt to check python is running from your virtual environment
+- VS Code, press control + shift + p and search 'interpreter' to choose your default python interpreter. You can select your virtual environment from here.
 
 ## Dagster
 

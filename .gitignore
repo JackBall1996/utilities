@@ -1,1 +1,3 @@
-Dagster/
+# Virtual Enviornments
+.venv
+.env

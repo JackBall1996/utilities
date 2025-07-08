@@ -1,0 +1,27 @@
+Project:
+  projectdescription:
+    name: 'Dagster_Test_Pipeline'
+    description: 'XYZ'
+    main_contact: 'Jack Ball'
+    project_sponsor: 'Jack Ball'
+    project_email: 'hiss.support@ukhsa.gov.uk'
+    schedule: "0 0 * * *"
+    create_date: '30/09/2024 11:00:00'
+    env: 'dev'
+    mailing_list: 'jack.ball@ukhsa.gov.uk'
+  datasets:
+    - dataset: Measles
+      type: file
+      files: 
+        - file_path: ['C:\Users\Jack.Ball\OneDrive - UK Health Security Agency\Documents\Dagster\test1.csv']
+          table_name: 'dbo.testcsv1'
+        - file_path: ['C:\Users\Jack.Ball\OneDrive - UK Health Security Agency\Documents\Dagster\test2.csv']
+          table_name: 'dbo.testcsv2'
+        - file_path: ['C:\Users\Jack.Ball\OneDrive - UK Health Security Agency\Documents\Dagster\test3.csv']
+          table_name: 'dbo.testcsv3'
+  target:
+    - dataset: Measles
+      type: sql_table
+      dsn: Measles
+      server: 'SQLCLUSCOLDEV19\DEV19'
+      database_name: 'AM_Dev'

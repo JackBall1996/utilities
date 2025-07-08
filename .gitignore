@@ -3,3 +3,10 @@
 .env
 Dagster/env/
 Dagster/venv
+
+# Dagster temp files
+Dagster/tmp*
+
+#pycache
+__pycache__/
+Dagster/__pycache__

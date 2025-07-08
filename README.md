@@ -39,7 +39,7 @@ You can install all the packages and their versions from a requirements file by 
 - Open command prompt 
 - Set working directory to Dagster folder using 'cd C:\my_folder_path\
 - Activate your virtual environment '.pyenv\scripts\activate'
-- Launch Dagster 'dev -f my_python_script.py'
+- Launch Dagster 'dagster dev -f my_python_script.py'
 - Open Dagster UI http://127.0.0.1:3000/locations/
 
 ## To-Do

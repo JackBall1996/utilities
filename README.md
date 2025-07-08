@@ -41,3 +41,8 @@ You can install all the packages and their versions from a requirements file by 
 - Activate your virtual environment '.pyenv\scripts\activate'
 - Launch Dagster 'dev -f my_python_script.py'
 - Open Dagster UI http://127.0.0.1:3000/locations/
+
+## To-Do
+
+- Add pre-commit
+- Add MKDocs

@@ -65,6 +65,14 @@ pip install -r requirements.text
 
 ## Pre-Commit
 
+The pre-commit package must be installed on your virtual environment and then activated using:
+
+```bash
+pre-commit install
+```
+
+The .pre-commit.config.yaml file specifies what hooks are to be run during each commit. As of right now, black and flake8 are currently run as part of our pre-commit checks.
+
 ## To-Do
 
 - Add pre-commit

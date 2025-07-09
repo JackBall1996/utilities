@@ -5,27 +5,45 @@
 ### Creation
 
 - Open command promot
-- Set your working directory using 'cd C:\your_working_directory\'
-- Run 'py -m venv env' to create a virtual environment named 'env' 
+- Set your working directory using:
+    ```bash
+    cd C:\your_working_directory\
+    ```
+- To create a virtual environment named 'env' run:
+    ```bash
+    py -m venv env
+    ```
 
 ### Activation / De-activation
 
-- Run 'venv\scripts\activate'
-- Run 'deactivate'
+- Activate
+    ```bash
+    env\scripts\activate
+    ```
+- Deactivate'deactivate'
+    ```bash
+    deactivate
+    ```
 
 ### Packages
 
 You can now install packages in your virtual environment using the following command:
 
-- py -m pip install some_package
+```bash
+py -m pip install some_package
+```
 
 Within your environment you can generate a list of all the packages that are currently installed and required for the project by running the following command:
 
-- pip freeze > requirements.text
+```bash
+pip freeze > requirements.text
+```
 
 You can install all the packages and their versions from a requirements file by using the following command:
 
-- pip install -r requirements.text
+```bash
+pip install -r requirements.text
+```
 
 ### Extras 
 
@@ -37,10 +55,15 @@ You can install all the packages and their versions from a requirements file by 
 ### Set-Up
 
 - Open command prompt 
-- Set working directory to Dagster folder using 'cd C:\my_folder_path\
-- Activate your virtual environment '.pyenv\scripts\activate'
-- Launch Dagster 'dagster dev -f my_python_script.py'
+- Set working directory to Dagster folder
+- Activate your virtual environment
+- Launch Dagster 
+    ```bash
+    dagster dev -f my_python_script.py
+    ```
 - Open Dagster UI http://127.0.0.1:3000/locations/
+
+## Pre-Commit
 
 ## To-Do
 

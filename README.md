@@ -75,5 +75,5 @@ The .pre-commit.config.yaml file specifies what hooks are to be run during each 
 
 ## To-Do
 
-- Add pre-commit
 - Add MKDocs
+- Add pyproject.toml

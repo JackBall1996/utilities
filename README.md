@@ -85,3 +85,4 @@ Once the file has been created in the correct folder and pushed to the repo, it 
 
 - Add MKDocs
 - Add pyproject.toml
+- Add pull request template

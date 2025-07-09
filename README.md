@@ -65,6 +65,8 @@ pip install -r requirements.text
 
 ## Pre-Commit
 
+### Locally
+
 The pre-commit package must be installed on your virtual environment and then activated using:
 
 ```bash
@@ -72,6 +74,12 @@ pre-commit install
 ```
 
 The .pre-commit.config.yaml file specifies what hooks are to be run during each commit. As of right now, black and flake8 are currently run as part of our pre-commit checks.
+
+### Repository
+
+To ensure pre-commit checks are run on the github repository, a .github/workflows/pre_commit_checks.yml file must be created.
+
+Once the file has been created in the correct folder and pushed to the repo, it should automatically run under the conditions specified.
 
 ## To-Do
 

@@ -3,8 +3,10 @@ repos:
     rev: 7.1.1
     hooks:
       - id: flake8
-        #args:
-          #- --ignore=E501,F401
+        args:
+          - --ignore=E501,E203
+          # E501 - lines too long
+          # E203 - whitespace before ':' error. Creating a conflict with black
 
   - repo: https://github.com/psf/black
     rev: 24.8.0

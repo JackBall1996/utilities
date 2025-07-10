@@ -81,6 +81,15 @@ To ensure pre-commit checks are run on the github repository, a .github/workflow
 
 Once the file has been created in the correct folder and pushed to the repo, it should automatically run under the conditions specified.
 
+## Git Cheat Sheet [WIP] ##
+
+| Command                         | Action                              | 
+| ------------------------------- | ----------------------------------- |
+| $ git clear                     | Clear terminal                      |
+| $ git clone [url] [folder_name] | Clone a repo (optional folder name) |
+| $ git add [file_name]           | Add a file                          |
+| $ git rm [file_name]            | Remove a file                       |
+
 ## To-Do
 
 - Add MKDocs

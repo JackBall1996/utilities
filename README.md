@@ -81,7 +81,7 @@ To ensure pre-commit checks are run on the github repository, a .github/workflow
 
 Once the file has been created in the correct folder and pushed to the repo, it should automatically run under the conditions specified.
 
-## Git Cheat Sheet [WIP] ##
+## Git Cheat Sheet ##
 
 | Command                         | Action                              | 
 | ------------------------------- | ----------------------------------- |
@@ -89,7 +89,23 @@ Once the file has been created in the correct folder and pushed to the repo, it 
 | $ git clone [url] [folder_name] | Clone a repo (optional folder name) |
 | $ git add [file_name]           | Add a file                          |
 | $ git rm [file_name]            | Remove a file                       |
-
+| $ git branch                    | List all branches                   |
+| $ git branch [branch_name]      | Create a new branch                 |
+| $ git branch -d [branch_name]   | Delete a merged branch              |
+| $ git branch -D [branch_name]   | Delete any kind of branch           |
+| $ git switch [branch_name]      | Switch to a branch                  |
+| $ git diff                      | List differences between branch and repo |
+| $ git diff [file_path] | List differences in a specific file | 
+| $ git diff > [file_path].diff | Save differences to specified file path | 
+| $ git remote update | Update connection (allows new branches to appear) | 
+| $ git log | List commit history on active branch | 
+| $ git pull origin [branch_name] | Update local repo | 
+| $ git commit -m [message] | Commit changes | 
+| $ git push | Push commits to repo | 
+| $ git stash | Temporarily shelve any changes | 
+| $ git stash pop [index] | Reapply shelved changes (Index defaults to 0) | 
+| $ git stash list | List all stashes |
+| $ git stash show [index] | Show all changes for specific stash | 
 ## To-Do
 
 - Add MKDocs

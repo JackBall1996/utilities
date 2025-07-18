@@ -1,0 +1,33 @@
+site_name: MKDocs
+site_url: https://github.com/JackBall1996/utilities
+site_description: 'MKDocs Test SetUp'
+site_author: 'Jack Ball'
+docs_dir: docs/
+repo_name: 'JackBall1996/utilities'
+repo_url: 'https://github.com/'
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    primary: custom
+  font:
+    text: GDS Transport
+    code: Fira Code
+
+nav:
+  - Home: index.md
+  - Auto Docs: src-docs.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: ["Python"]
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

@@ -106,7 +106,9 @@ Once the file has been created in the correct folder and pushed to the repo, it 
 | $ git stash pop [index] | Reapply shelved changes (Index defaults to 0) | 
 | $ git stash list | List all stashes |
 | $ git stash show [index] | Show all changes for specific stash | 
+
+## MKDocs
+
 ## To-Do
 
-- Add MKDocs
 - Add pyproject.toml

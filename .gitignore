@@ -10,3 +10,6 @@ Dagster/tmp*
 #pycache
 __pycache__/
 Dagster/__pycache__
+
+#MKDocs
+site/

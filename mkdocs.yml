@@ -23,9 +23,9 @@ plugins:
   - search
   - mkdocstrings:
       default_handler: python
-      handlers:
-        python:
-          paths: ["Python"]
+      #handlers:
+        #python:
+          #paths: ["Python"]
 
 markdown_extensions:
   - admonition

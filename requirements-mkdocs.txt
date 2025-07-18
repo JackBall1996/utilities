@@ -1,5 +1,6 @@
 mkdocs
 mkdocs-material
+mkdocstrings
 pymdown-extensions
 markdown-it-py
 mdurl

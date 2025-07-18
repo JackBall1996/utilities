@@ -109,6 +109,26 @@ Once the file has been created in the correct folder and pushed to the repo, it 
 
 ## MKDocs
 
+### Repository
+
+An mkdocs.yml file must exist that drives the site that is created. Here you can reference other files that will generate pages for you, as can be seen in docs/. A workflow file has also been set up to execute on any push actions into main. This file uses the requirements-mkdocs.txt file to install the packages required for the site's creation.
+
+The following code can be executed to build mkdocs locally:
+
+```bash
+mkdocs build
+```
+
+### GitHub
+
+Once a workflow has been executed, the gh-pages branch should have been created in your repository. 
+
+On your repository go to [Settings > Pages]. Under 'Build and Deployment' select Source 'Deploy from a Branch' and choose the gh-pages branch.
+
+This will activate your site, a link will appear on this page.
+
+Note, your repository must be set to Public for GitHub pages to work. 
+
 ## To-Do
 
 - Add pyproject.toml
